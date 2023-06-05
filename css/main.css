@@ -263,8 +263,8 @@ p {
   .header__nav {
     position: fixed;
     top: 0px;
-    right: 15px;
-    left: 15px;
+    right: 30px;
+    left: 30px;
     bottom: 0;
     margin: 0 30px 0 30px;
     display: flex;
@@ -1531,6 +1531,217 @@ p {
     grid-template: repeat(2, auto)/repeat(1, auto);
     gap: 47px;
   }
+  .service__grid-item {
+    padding: 52px 10px 88px 37px;
+    background-color: #5F00A2;
+    box-shadow: 17px 13px #E6FF28;
+    color: #fff;
+    border-radius: 19px;
+    transition: all 0.8s ease;
+    position: relative;
+    max-width: 500px;
+    height: 500px;
+    position: relative;
+    transform: translate(0px, 5%);
+    transition: all 1s;
+    opacity: 0;
+    cursor: default;
+  }
+  .service__grid-item p {
+    color: #fff;
+    cursor: default;
+  }
+  .service__grid-item.active {
+    transform: translate(0px, 0px);
+    transition: all 1s;
+    opacity: 1;
+  }
+  .service__grid-item:hover {
+    background-color: #5F00A2;
+    box-shadow: 17px 13px #E6FF28;
+    color: #fff;
+    cursor: default;
+  }
+  .service__grid-item:hover p {
+    color: #fff;
+    cursor: default;
+  }
+  .service__grid-item:hover h2 {
+    color: #fff;
+    cursor: default;
+  }
+  .service__grid-item:hover .service__grid-backgr {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-human {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+  .service__grid-item:hover .service__grid-ico {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-icot {
+    opacity: 1;
+  }
+  .service__grid-icon {
+    opacity: 0;
+  }
+  .service__grid-ico {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .service__grid-ico.active {
+    opacity: 1;
+  }
+  .service__grid-icont {
+    opacity: 0;
+  }
+  .service__grid-icot {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .service__grid-icot.active {
+    opacity: 1;
+  }
+  .service__grid-human {
+    opacity: 1;
+    transform: translateX(-10%);
+  }
+  .service__grid-human.active {
+    transform: translateX(100%);
+    transition: all 0.5s;
+  }
+  .service__grid-backgrs {
+    opacity: 0;
+  }
+  .service__grid-backgr {
+    opacity: 0;
+  }
+  .service__grid-backgr.active {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-back {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-humant {
+    opacity: 1;
+    transform: translateX(160%);
+  }
+  .service__grid-item:hover .service__grid-icost {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-icostr {
+    opacity: 1;
+  }
+  .service__grid-iconst {
+    opacity: 0;
+  }
+  .service__grid-icost {
+    opacity: 0;
+  }
+  .service__grid-icost.active {
+    opacity: 1;
+  }
+  .service__grid-iconstr {
+    opacity: 0;
+  }
+  .service__grid-icostr {
+    opacity: 0;
+  }
+  .service__grid-icostr.active {
+    opacity: 1;
+  }
+  .service__grid-humant {
+    opacity: 1;
+    transform: translateX(350%);
+  }
+  .service__grid-humant.active {
+    transform: translateX(160%);
+    transition: all 0.5s;
+  }
+  .service__grid-backs {
+    opacity: 0;
+  }
+  .service__grid-back {
+    opacity: 0;
+  }
+  .service__grid-back.active {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-backk {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-humanf {
+    opacity: 1;
+    transform: translateX(210%);
+  }
+  .service__grid-item:hover .service__grid-icos {
+    opacity: 1;
+  }
+  .service__grid-icons {
+    opacity: 0;
+  }
+  .service__grid-icos {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .service__grid-icos.active {
+    opacity: 1;
+  }
+  .service__grid-humanf {
+    opacity: 1;
+    transform: translateX(350%);
+  }
+  .service__grid-humanf.active {
+    transform: translateX(210%);
+    transition: all 0.5s;
+  }
+  .service__grid-backks {
+    opacity: 0;
+  }
+  .service__grid-backk {
+    opacity: 0;
+  }
+  .service__grid-backk.active {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-backgraund {
+    opacity: 1;
+  }
+  .service__grid-item:hover .service__grid-humans {
+    opacity: 1;
+    transform: translateX(100%);
+  }
+  .service__grid-item:hover .service__grid-icof {
+    opacity: 1;
+  }
+  .service__grid-iconf {
+    opacity: 0;
+  }
+  .service__grid-icof {
+    opacity: 0;
+  }
+  .service__grid-icof.active {
+    opacity: 1;
+  }
+  .service__grid-humans {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  .service__grid-humans.active {
+    transform: translateX(100%);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  .service__grid-backgraunds {
+    opacity: 0;
+  }
+  .service__grid-backgraund {
+    opacity: 0;
+  }
+  .service__grid-backgraund.active {
+    opacity: 1;
+  }
 }
 @media (max-width: 650px) {
   .service__grid-list {
@@ -1575,21 +1786,19 @@ p {
     top: 360px;
     width: 69px;
     height: 110px;
-    transform: translateX(-40%);
+    transform: translateX(-10%);
+    -webkit-transform: translateX(-10%);
   }
   .service__grid-human img {
     width: 69px;
     height: 110px;
   }
-  .service__grid-backgrs {
-    top: 375px;
-    left: 95px;
-    width: 153px;
-    height: 70px;
+  .service__grid-human.active {
+    transform: translateX(10%);
+    transition: all 0.5s;
   }
-  .service__grid-backgrs img {
-    width: 153px;
-    height: 70px;
+  .service__grid-backgrs {
+    opacity: 0;
   }
   .service__grid-backgr {
     top: 375px;
@@ -1605,7 +1814,7 @@ p {
     transform: translateX(120%);
   }
   .service__grid-item:hover .service__grid-icostr {
-    opacity: 0;
+    opacity: 1;
   }
   .service__grid-iconst {
     position: absolute;
@@ -1632,6 +1841,9 @@ p {
   .service__grid-humant img {
     width: 69px;
     height: 109px;
+  }
+  .service__grid-humant.active {
+    transform: translateX(120%);
   }
   .service__grid-backs {
     top: 350px;
@@ -1663,6 +1875,11 @@ p {
   .service__grid-icos {
     top: 150px;
     right: 7px;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .service__grid-icos.active {
+    opacity: 1;
   }
   .service__grid-humanf {
     top: 365px;
@@ -1673,6 +1890,10 @@ p {
   .service__grid-humanf img {
     width: 60px;
     height: 103px;
+  }
+  .service__grid-humanf.active {
+    transform: translateX(190%);
+    transition: all 0.5s;
   }
   .service__grid-backks {
     top: 350px;
@@ -1711,11 +1932,15 @@ p {
     top: 340px;
     width: 80px;
     height: 100px;
-    transform: translateX(-30%);
+    transform: translateX(0%);
   }
   .service__grid-humans img {
     width: 101px;
     height: 148px;
+  }
+  .service__grid-humans.active {
+    opacity: 1;
+    transform: translateX(20%);
   }
   .service__grid-backgraunds {
     bottom: 45px;
@@ -2267,6 +2492,12 @@ p {
   position: relative;
 }
 .business__box:hover {
+  background-color: #5F00A2;
+  box-shadow: 17px 13px #E6FF28;
+  color: #fff;
+  cursor: default;
+}
+.business__box.active {
   background-color: #5F00A2;
   box-shadow: 17px 13px #E6FF28;
   color: #fff;
