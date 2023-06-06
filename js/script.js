@@ -51,6 +51,8 @@ $(window).scroll(function() {
     
 }).scroll();
 
+
+
 $(function () {
     $('.burger, .overlay').on('click', function (e) {
         e.preventDefault()
