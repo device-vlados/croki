@@ -113,8 +113,6 @@ p {
 
 .color-black {
   background-color: #27282D;
-  color: #fff;
-  transition: all 0.5s;
 }
 .color-black .header__top {
   color: #000;
@@ -126,10 +124,10 @@ p {
   border: 2px solid #fff;
 }
 .color-black h1 {
-  transition: all 0.5s;
+  transition: all;
 }
 .color-black p {
-  transition: all 0.5s;
+  transition: all;
 }
 .color-black .cover__row-item,
 .color-black .cover__row-items,
