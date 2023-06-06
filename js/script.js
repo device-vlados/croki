@@ -34,7 +34,7 @@ $(window).scroll(function() {
         $body = $('body'),
         $panel = $('.panel');
     
-    var scroll = $window.scrollTop() + ($window.height() / 1.5);
+    var scroll = $window.scrollTop() + ($window.height() / 3);
 
     $panel.each(function () {
         var $this = $(this);
