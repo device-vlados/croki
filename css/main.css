@@ -150,13 +150,15 @@ p {
   background: url("../images/gray-overlay.svg") no-repeat 50% 50%;
   transition: all;
 }
+.color-black .build__heading-title {
+  color: #fff;
+}
 .color-black .build__scroll-item {
   border: 1px solid rgba(33, 33, 33, 0.5647058824);
   background-color: rgba(33, 33, 33, 0.5647058824);
 }
 .color-black .build__scroll-item p {
   color: #fff;
-  transition: all 0.3s;
 }
 .color-black .testimonials__slider-arrow,
 .color-black .testimonials__slider-arrows {
