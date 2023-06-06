@@ -111,24 +111,34 @@ p {
   transition: all 1s;
 }
 
+.text {
+  transition: color 0.5s ease;
+}
+
 .color-black {
   background-color: #27282D;
-  color: #fff;
 }
 .color-black .header__top {
-  color: #000;
-}
-.color-black .team__image-info {
   color: #000;
 }
 .color-black .progress {
   border: 2px solid #fff;
 }
 .color-black h1 {
-  transition: all;
+  color: #fff;
+  transition: all 0.3s;
 }
-.color-black p {
-  transition: all;
+.color-black .service__heading-text {
+  color: #fff;
+  transition: all 0.3s;
+}
+.color-black .circle__active-title {
+  color: #fff;
+  transition: all 0.3s;
+}
+.color-black .circle__active-text {
+  color: #fff;
+  transition: all 0.3s;
 }
 .color-black .cover__row-item,
 .color-black .cover__row-items,
@@ -143,6 +153,10 @@ p {
 .color-black .build__scroll-item {
   border: 1px solid rgba(33, 33, 33, 0.5647058824);
   background-color: rgba(33, 33, 33, 0.5647058824);
+}
+.color-black .build__scroll-item p {
+  color: #fff;
+  transition: all 0.3s;
 }
 .color-black .testimonials__slider-arrow,
 .color-black .testimonials__slider-arrows {
