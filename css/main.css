@@ -126,7 +126,7 @@ p {
 }
 .color-black h1 {
   color: #fff;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .color-black .service__heading-text {
   color: #fff;
@@ -152,6 +152,7 @@ p {
 }
 .color-black .build__heading-title {
   color: #fff;
+  transition: all 0.5s;
 }
 .color-black .build__scroll-item {
   border: 1px solid rgba(33, 33, 33, 0.5647058824);
@@ -159,6 +160,7 @@ p {
 }
 .color-black .build__scroll-item p {
   color: #fff;
+  transition: all 0.5s;
 }
 .color-black .testimonials__slider-arrow,
 .color-black .testimonials__slider-arrows {
