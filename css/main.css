@@ -113,6 +113,7 @@ p {
 
 .color-black {
   background-color: #27282D;
+  color: #fff;
 }
 .color-black .header__top {
   color: #000;
@@ -156,7 +157,6 @@ p {
 }
 
 .color-white {
-  transition: all 0.5s;
   background-color: #fff;
 }
 
