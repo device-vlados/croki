@@ -179,6 +179,27 @@ hover.forEach((hov, index) =>{
 //     priceElement.textContent = multipliedPrice;
 //     priceElement2.textContent = multipliedPrice2;
 // };
+// ===============================================================
+var b = document.querySelectorAll('.bt');
+var divs = document.querySelectorAll('.inclusive__box');
+
+var activateBlock = function(index) {
+    console.log(index);
+    divs.forEach(function(div) {
+        div.classList.remove('active');
+    });
+    divs[index].classList.add('active');
+};
+
+b.forEach(function(br, index) {
+    br.addEventListener('click', function() {
+        activateBlock(index);
+    });
+
+    br.addEventListener('mouseenter', function() {
+        activateBlock(index);
+    });
+});
 // ---------------------------------------------------------------
 const btns = document.querySelectorAll('.price-btns');
 const oneActiveBtn = document.querySelector('.return');
@@ -196,6 +217,7 @@ btns.forEach((btn, index) =>{
     divs[index].classList.add('active');
     });
 });
+
 
 oneActiveBtn.addEventListener('click', (event) => {
     event.preventDefault();

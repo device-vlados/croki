@@ -1012,6 +1012,10 @@ p {
     text-align: left;
   }
 }
+#busines, #commerce, #custom {
+  z-index: 2;
+}
+
 .main__pricing {
   padding: 200px 0 72px 0;
 }
