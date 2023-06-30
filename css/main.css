@@ -3857,7 +3857,7 @@ p {
 @media (max-width: 1050px) {
   .calendly-inline-widget {
     min-width: 280px;
-    height: 1100px;
+    height: 100vh;
     overflow: hidden;
   }
 }
@@ -3866,7 +3866,7 @@ p {
     margin: 0 auto;
     padding: 140px 30px 0 30px;
     max-width: 550px;
-    height: 1150px;
+    height: 1430px;
     overflow: hidden;
   }
 }
@@ -3875,7 +3875,7 @@ p {
     margin: 0 auto;
     padding: 140px 30px 0 30px;
     max-width: 550px;
-    height: 1160px;
+    height: 1430px;
     overflow: hidden;
   }
 }
