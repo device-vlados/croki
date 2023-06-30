@@ -28,7 +28,9 @@ if (animItems.length > 0) {
         return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
     }
 }
+// ============================================================================================
 
+// ============================================================================================
 
 
 $(function () {
@@ -43,6 +45,8 @@ $(function () {
         dots: false,
         waitForAnimate: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
     })
     $('.testimonials__slider-prev').on('click', function (e) {
         e.preventDefault()
@@ -59,6 +63,8 @@ $(function () {
         dots: false,
         waitForAnimate: true,
         infinite: true,
+        autoplay: true,
+        autoplaySpeed: 1000,
     })
     $('.case__slider-prev').on('click', function (e) {
         e.preventDefault()
